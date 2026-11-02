@@ -1,17 +1,24 @@
+# Create a list
+numbers = [30, 10, 50, 20, 40]
 
-lst = [30, 10, 20]
+print("Original list:", numbers)
 
-lst.append(40)
-print("Append:", lst)
+# Insert an element
+numbers.insert(2, 25)
+print("After insert:", numbers)
 
-lst.insert(1, 15)
-print("Insert:", lst)
+# Append an element
+numbers.append(60)
+print("After append:", numbers)
 
-lst.remove(20)
-print("Remove:", lst)
+# Remove an element
+numbers.remove(10)
+print("After remove:", numbers)
 
-lst.sort()
-print("Sort:", lst)
+# Sort the list
+numbers.sort()
+print("After sort:", numbers)
 
-lst.reverse()
-print("Reverse:", lst)
+# Reverse the list
+numbers.reverse()
+print("After reverse:", numbers)
